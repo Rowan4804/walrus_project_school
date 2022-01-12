@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <style>
+            #main {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <meta http-equiv="Content-Type"
+        content="text/html;
+        charset=UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="robots" content="all">
+        <meta name="language" content="Dutch">
+        <meta name="author" content="Rowan Schotanus">
+        <title>De walrus grand-café</title>
+    </head>   
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menukaart.html">Menukaart</a></li>
+                <li><a href="arrangment.html">Arrangment</a></li>
+                <li><a href="zakelijk.html">Zakelijk</a></li>
+                <li><a href="formulier.php">Contact</a></li>
+        </nav>
+        <div id="logo"></div>
+        <main>
+            <body id="main"></body>
+            <p>Neem contact met ons op!</p>
+            <form class="contact-form" action="formulier.html" method="post">
+            <input type="text" name="naam" placeholder="Volledige naam">
+            <input type="text" name="email" placeholder="E-mail">
+            <input type="text" name="subject" placeholder="Onderwerp">
+            <input type="text" name="locatie" placeholder="restaurant locatie" list="steden">
+                <datalist id="steden">
+                    <option value="Leeuwarden">
+                    <option value="Sneek">
+                </datalist> <br>
+            <textarea name="bericht" placeholder="Typ hier uw bericht"></textarea>
+            <button type="submit" name="verzenden">Verzenden</button>
+        </main>
+        <footer>
+            <a href="#top"><img src="images/twitter.png" alt="x"></a>
+            <a href="#top"><img src="images/facebook.png" alt="x"></a>
+            <p>Copyright &copy; 2021 <i>Ontworpen door: Rowan Schotanus</i> Alle rechten voorbehouden</p>
+        </footer>
+        </body>
+    </html>
