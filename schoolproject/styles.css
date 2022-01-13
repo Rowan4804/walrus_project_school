@@ -9,7 +9,7 @@ body {
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: auto;
+  margin-bottom: 5%;
   border: 1px solid;
   overflow: inherit;
   background-color: #fff;
@@ -68,43 +68,23 @@ a {
 }
 
 #textbox {
-  display: inline-block;
-  width: 400px;
-  height: 500px;
-  margin-top: 10%;
+  text-align: center;
+  border: 1px solid #848484;
+  -moz-border-radius-topleft: 30px;
+  -webkit-border-top-left-radius: 30px;
+  border-top-left-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  -webkit-border-top-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border: 1px solid #848484;
+  outline: 0;
+  height: 25px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
-.flex-container {
-  font-size: 15px;
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  align-items: flex-start;
-}
-
-.flex-container2 {
-  font-size: 15px;
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  align-items: flex-start;
-}
-
-.flex-container3 {
-  font-size: 15px;
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  align-items: flex-end;
-  background-color: yellow;
-  align-self: center;
-}
-
 footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   right: 0;
   left: 0;
@@ -112,6 +92,7 @@ footer {
   float: left;
   text-align: center;
   width: 100%;
+  height: 90px;
   padding-top: 20px;
   padding-bottom: 10px;
   background: rgb(62, 13, 4);
